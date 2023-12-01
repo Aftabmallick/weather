@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="description" content="Weather Application Using HTML, CSS, JavaScript, JSP, Servlet">
+    <meta name="author" content="Aftab Mallick">
+    <meta property="og:title" content="Weather Application By Aftab Mallick" />
+	<title>Weather Application</title>
+	<link rel="stylesheet" href="style.css">
+	<link class="fav" rel="shortcut icon" href="favicon/clear.ico" type="image/x-icon">
+</head>
+<body>
+	<div class="card">
+		<form action="Myservlet" method="post" class="search">
+				
+	            <input type="text" placeholder="enter city name" spellcheck="false" name="city">
+	            <button><img src="images/search.png" alt="search-icon"></button>
+	        </form>
+	        <div class="error">
+	            <p>Invalid city name</p>
+	        </div>
+	</div>
+       
+</body>
+</html>
